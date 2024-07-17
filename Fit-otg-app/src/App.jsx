@@ -1,17 +1,21 @@
-import { useState } from 'react'
-import './App.css'
+// import { useState } from 'react'
+// import './App.css'
+import HomePage from './components/homePage.js';
+import Profile from './components/profile.js';
+import Login from './components/login.js';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
        
       </div>
-     
+     <HomePage />
+     <Profile/>
+     <Login/>
     </>
   )
 }
 
-export default App
+export default App;
